@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
     <link rel="icon" type="image/x-icon" href="../static/image/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     {%block head%} {% endblock%}
 </head>
 <body>
     <!--===========NAV BAR========-->
 
     <nav class="navbar">
-        <h1>AdvertX</h1>
+        <h1>Advert<span>X</span></h1>
         <ul>
             <li>
-                <a href="/home">Home</a>
+                <a class="active" href="/home">Home</a>
             </li>
             <li>
                 <a href="/services">Services</a>
@@ -28,10 +29,10 @@
             </li>
 
         </ul>
-        <p><a href="/login">login?</a></p>
+        <p><a href="/login">Login</a></p>
         <h4 class="button"><a href="/signup">Sign Up</a></h4>
     </nav>
-    <div class="footer-container">
+    <!------ <div class="footer-container">
         <footer class="footer">
             <div class="first-message">
                 <h1>AdvertX</h1>
@@ -71,7 +72,7 @@
                 </ul>
             </div>
         </footer>
-    </div>
+    </div> -------->
     {% block body %} {% endblock %}
 </body>
 </html>
