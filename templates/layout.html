@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="icon" type="image/x-icon" href="../static/image/favicon-32x32.png">
+    {%block head%} {% endblock%}
+</head>
+<body>
+    <!--===========NAV BAR========-->
+
+    <nav class="navbar">
+        <h1>AdvertX</h1>
+        <ul>
+            <li>
+                <a href="/home">Home</a>
+            </li>
+            <li>
+                <a href="/services">Services</a>
+            </li>
+            <li>
+                <a href="/about">About Us</a>
+            </li>
+            <li>
+                <a href="/contact">Contact us</a>
+            </li>
+
+        </ul>
+        <p><a href="/login">login?</a></p>
+        <h4 class="button"><a href="/signup">Sign Up</a></h4>
+    </nav>
+    <div class="footer-container">
+        <footer class="footer">
+            <div class="first-message">
+                <h1>AdvertX</h1>
+                <p>2022 &copy; AdvertX all <br>rights reserved</p>
+            </div>
+            <div class="second-message">
+                <ul>
+                    <li>
+                        <a href="/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com">facebook</a>
+                    </li>
+                    <li>
+                        <a href="/services">Services</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com">instagram</a>
+                    </li>
+
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li><a href="https://www.twitter.com">twitter</a></li>
+                    <li>
+                        <a href="/contact" >Contact us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin">linkidin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="third-message">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Service</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    {% block body %} {% endblock %}
+</body>
+</html>

@@ -1,0 +1,117 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*====NAVBAR=====*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(196, 189, 189, 0.5);
+    border-radius: 20px;
+}
+.navbar h1{
+    font-size: 35px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 100px;
+}
+.navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-family: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all -5 ease;
+}
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar p {
+    margin: 10px;
+}
+
+.navbar p a{
+    text-decoration: none;
+    color: black;
+}
+.navbar .button{
+ 
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.navbar .button a{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    text-decoration: none;
+    color: black;
+}
+.footer-container{
+    margin-top: 50%;
+}
+.footer-container .footer{
+    background-color: rgb(196, 189, 189, 0.5);
+    display: flex;
+}
+.footer-container .footer .first-message{
+    margin: 20px 0px 50px 100px;
+}
+.footer-container .footer .first-message h1{
+    font-size: 70px;
+}
+.footer-container .footer .second-message{
+    margin: 50px 0px 50px 150px;
+    
+}
+.footer-container .footer .second-message ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    grid-gap: 50px;
+}
+.footer-container .footer .second-message ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-family: bold;
+}
+.footer-container .footer .second-message ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all -5 ease;
+}
+.footer-container .footer .second-message ul li a:hover {
+    background-color: white;
+    color: black;
+}
+.footer-container .footer .third-message{
+    margin: 50px 0px 50px 150px;
+    
+}
+.footer-container .footer .third-message ul{
+    display: grid;
+    list-style: none;
+    grid-gap: 50px;
+}
+.footer-container .footer .third-message ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-family: bold;
+}
