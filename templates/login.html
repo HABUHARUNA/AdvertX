@@ -8,4 +8,98 @@
 
 {% block body %}
 
+<div class="login-container">
+    <div class="login-container-my-head">
+      <h1>LOGIN</h1>
+    </div>
+    <div class="login-container-form">
+      <form action="" method="[POST]">
+        <div class="login-container-first-form">
+          <label for="email" class="label"> email </label>
+          <input type="email" class="input" />
+        </div>
+        <div class="login-container-second-form">
+          <label for="password" class="label">password</label>
+          <input type="password" name="" class="input" />
+        </div>
+        <div class="checkbox">
+            <label for="vehicle1"> Remember me?</label>
+            <input type="checkbox" id="vehicle1">
+        </div>
+        <div class="login-container-third-form">
+          <input type="submit" value="login" />
+        </div>
+        <div class="social-icons-container">
+            <ul class="social-icon">
+                <li>
+                  <a href="http://www.twitter.com" target="_blank"
+                    ><ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.instagram.com" target="_blank"
+                    ><ion-icon name="logo-instagram"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="http://www.facebook.com" target="_blank"
+                    ><ion-icon name="logo-facebook"></ion-icon
+                  ></a>
+                </li>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+
+<!--Footer Section-->
+<div class="footer-container">
+    <footer class="footer">
+        <div class="first-message">
+            <h1>Advert<span>X</span></h1>
+            <p>2022 &copy; AdvertX all <br>rights reserved</p>
+        </div>
+        <div class="second-message">
+            <ul>
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com">facebook</i></a>
+                </li>
+                <li>
+                    <a href="/services">Services</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">instagram</a>
+                </li>
+
+                <li>
+                    <a href="/about">About Us</a>
+                </li>
+                <li><a href="https://www.twitter.com">twitter</a></li>
+                <li>
+                    <a href="/contact" >Contact us</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin">linkidin</a>
+                </li>
+            </ul>
+        </div>
+        <div class="third-message">
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms Of Service</li>
+            </ul>
+        </div>
+    </footer>
+</div> 
 {% endblock %} 
