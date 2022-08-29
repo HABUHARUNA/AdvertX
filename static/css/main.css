@@ -1,3 +1,4 @@
+
 *{
     padding: 0; 
     margin: 0;
@@ -16,7 +17,7 @@
     background-color: white;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
     padding: 15px 20px;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .navbar h1{
     font-size: 35px;
@@ -100,11 +101,12 @@
     border-radius: 30px;
     margin: 50px 80px;
     box-shadow: 2px 2px 2px 2px rgba(168, 164, 164, 0.75);
-    height: 400px;
+    height: 500px;
 }
 .home-section-one-message{
     margin-top:-100px;
     padding: 70px;
+    margin-left: 50px;
 }
 .home-section-one-message p{
     font-size: 13px;
@@ -115,6 +117,13 @@
 }
 .home-section-one-message h1{
     font-size: 56px;
+    font-weight: bold;
+}
+.bro{
+    color: #e7376f;
+}
+.home-section-one-message h2{
+    font-size: 40px;
     font-weight: bold;
 }
 .home-section-one-message-buttons{
@@ -493,6 +502,7 @@ body {
 }
 .input{
     height: 25px;
+    padding: 10px;
 }
 .login-container-second-form{
     display: grid;
