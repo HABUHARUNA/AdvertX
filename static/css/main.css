@@ -149,6 +149,13 @@
     border: 1px solid #f9004d;
     border-radius: 20px;
 }
+.home-section-one-images img{
+    width: 450px;
+    height: 300px;
+    margin-right: 150px;
+    box-shadow: 4px 4px 4px rgba(65, 61, 61, 0.75);
+    border-radius: 20px;
+}
 .home-section-two{
     display: flex;
     justify-content: space-evenly;
