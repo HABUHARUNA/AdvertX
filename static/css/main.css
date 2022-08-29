@@ -564,7 +564,10 @@ body {
     background-blend-mode: darken;
 }
 .header1 {
-    margin: 200px 400px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-bottom: 200px;
 }
 .ad {
     display: flex;
