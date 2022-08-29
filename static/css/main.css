@@ -462,7 +462,7 @@ body {
 
 /*======LOGIN STARTS HERE*/
 .login-container{
-    margin: 100px 350px 0px 350px;
+    margin: 50px 400px 0px 400px;
     border: 1px solid rgb(224, 210, 210);
     border-radius: 10px;
     background-image: url('../image/white.jpeg');
