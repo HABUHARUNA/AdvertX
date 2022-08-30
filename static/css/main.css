@@ -469,22 +469,26 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 1px 1px 1px 1px black;
+    border-top-right-radius: none;
 
 }
 .login-container-my-head{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
     font-weight: bold;
     font-size: 25px;
-    color: #f9004d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     background-color: black;
-    border-radius: 10px;
     padding: 10px;
 }
 .login-container-first-form{
     display: grid;
     padding: 20px;
     margin-left: 30%;
+}
+.login-container-first-form span{
+    padding-left: 120px;
 }
 .login-container-first-form input {
     padding-right: 10em;
@@ -497,6 +501,9 @@ body {
     border-radius: 5px;
     margin-right: 30%;
     border: 1px solid rgb(167, 161, 161);
+}
+.login-container-second-form span{
+    padding-left: 120px;
 }
 .label {
     font-weight: bold;
@@ -533,7 +540,7 @@ body {
     padding: 10px 100px;
     font-weight: bold;
     background-color: black;
-    color: #f9004d;
+    color: white;
     border: 1px solid black;
     border-radius: 20px;
     margin-left: 25%;
@@ -541,8 +548,8 @@ body {
 }
 .login-container-third-form input:hover {
     background-color: transparent;
-    border: 1px solid #f9004d;
-    color: #f9004d;
+    border: 1px solid black;
+    color: black;
 }
 .social-icons-container .social-icon {
     display: flex;
@@ -674,4 +681,148 @@ body {
 .section_one_images img {
     border-radius: 100px;
     box-shadow: 2px 2px 2px 2px rgba(165, 157, 157, 0.75);
+}
+
+/*====CONTACT US ======*/
+.contact-us-header{
+    text-align: center;
+    background-image: url('../image/0_F4QsnZTYhz_xEO2P.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 300px;
+    padding-top: 100px;
+}
+.contact-us-header h1{
+    font-size: 56px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-us-header p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get-in-touch{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 70px;
+}
+.contact-us-form{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    display: flex;
+    height: 100px;
+
+}
+.obit{
+    padding: 50px;
+}
+.obit label{
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.obit input{
+    margin-right: 10px;
+}
+.obit textarea{
+    margin-top: 30px;
+}
+#so{
+    margin-left: 10px;
+}
+.submit input{
+    padding: 10px 100px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 25%;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.submit input:hover{
+    background-color: #f9004d;
+    color: white;
+    border: none;
+}
+.arrow img{
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: -45px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+/*====SIGNUP====*/
+.signup-container{
+    text-align: center;
+
+    margin: 50px 400px 0px 400px;
+    border: 1px solid rgb(224, 210, 210);
+    border-radius: 10px;
+    background-image: url('../image/white.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.signup-container-first {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.signup-container-first h1{
+    padding-bottom: 10px;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.signup-container-first h3{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.signup-container form{
+    margin: 50px;
+}
+.signup-container form input{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.signup-button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.signup-container a{
+    text-decoration: none;
+    color: blue;
+}
+.signup-button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+.baba{
+    margin-left: 37%;
+    margin-top: 10px;
+}
+.baba a{
+    text-decoration: none;
+    color: blue;
 }

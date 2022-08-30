@@ -28,7 +28,7 @@ def signup():
     return render_template("signup.html")
 
 
-@main.route("/login")
+@main.route("/login", methods = ["GET", "POST"])
 def login():
     return render_template("login.html")
 
