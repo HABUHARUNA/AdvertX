@@ -49,9 +49,10 @@
     color: #f9004d;
     cursor: pointer;
     transition: .5s;
+    color: white;
 }
 .navbar ul li a:hover {
-    background-color: rgb(131, 126, 126);
+    background-color: #f9004d;
     border-bottom: none;
     border-radius: 999px;
 }
@@ -165,48 +166,26 @@
     box-shadow: 4px 4px 4px rgba(65, 61, 61, 0.75);
     border-radius: 20px;
 }
-.home-section-two{
+
+.before_testimonial {
+    background: url('../image/back2.jpg');
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin: 150px 70px 70px 70px;
-    border-bottom: 1px solid lightblue;
+    margin: 100px 70px;
+    padding: 50px;
+    box-shadow: 4px 4px 4px rgba(65, 61, 61, 0.75);
+    border-radius: 30px;
 }
-.home-section-two .home-section-two-message h1{
-    font-size: 56px;
-    font-weight: bold;
-    padding-bottom: 10px;
+.before_testimonial .writing {
+    line-height: 2em;
+    padding-left: 200px;
+    color: rgb(4, 2, 36);
+    font-size: 28px;
+    padding-right: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.home-section-two .home-section-two-message h1 span{
-    color: #f9004d;
-}
-.home-section-two .home-section-two-message p{
-    font-size: 20px;
-    color: black;
-    font-style: bold;
-    word-spacing: 2; 
-}
-.lie{
-    margin: 30px 0px;
-}
-.home-section-two-message-button {
-    text-decoration: none;
-    font-size: 15px;
-    background-color: #f9004d;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    padding: 10px 20px;
-    border-radius: 999px;
-}
-.home-section-two-message-button:hover{
-    color: #f9004d;
-    background-color: transparent;
-    border: 1px solid #f9004d;
-}
-.home-section-two-message-image img{
-    width: 400px;
-    height: 300px;
-}
+
 .testimonial{
     background-image: url('../image/white.jpeg');
     background-size: cover;
@@ -425,7 +404,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
-    grid-gap: 50px;
+    grid-gap: 30px;
 }
 .footer-container .footer .second-message ul li{
     font-family: Arial, Helvetica, sans-serif;
@@ -448,7 +427,7 @@ body {
 .footer-container .footer .third-message ul{
     display: grid;
     list-style: none;
-    grid-gap: 50px;
+    grid-gap: 20px;
 }
 .footer-container .footer .third-message ul li{
     font-family: Arial, Helvetica, sans-serif;
